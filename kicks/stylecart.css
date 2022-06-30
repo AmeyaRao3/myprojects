@@ -1,0 +1,142 @@
+.cart-header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+   
+    margin-right: 1.5em;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    
+    background: linear-gradient(142deg, #eeb6ff, #8dfaeef0);
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+
+.cart-item{
+ width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+}
+
+.cart-quantity{
+    width: 35%;
+}
+
+.cart-item-title{
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger{
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn-danger:hover{
+    background-color: brown;
+}
+
+.cart-quantity-input{
+
+    height: 40px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    
+    border: none;
+}
+
+.cart-total{
+
+    text-align: center;
+    margin: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cart-total-price{
+    font-size: 1.5em;
+}
+
+.btn {
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    background-color: #009688;
+    font-weight: bold;
+    cursor: pointer;
+  
+}
+
+.pbox{
+      text-align: center;
+  }
+.btn-purchase{
+    
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #009688;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+.btn-purchase{
+    cursor: pointer;
+}
+.sub{
+    
+    margin-right: 50px;
+}
+
+
+a.special{
+        border-bottom: none;
+      }
+      
+

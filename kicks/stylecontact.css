@@ -1,0 +1,54 @@
+form {
+
+  box-shadow: 2px 2px 200px black;
+  background: #b0b1b6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  width: 100%;
+  max-width: 450px;
+  padding: 20px;
+}
+
+.msg{
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.green{
+
+  color: green;
+}
+.red{
+  color: red;
+}
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px whitesmoke;
+}
+
+.submit {
+  background-color: #323234;
+  color: white;
+  padding: 15px 25px;
+  border: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  border: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

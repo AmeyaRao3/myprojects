@@ -1,0 +1,16 @@
+.about-container{
+
+    background: #050505c4;
+    color: white;
+    padding: 15px;
+
+}
+.aboutmain{
+
+    background: url("images/sneaker.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    height: 92vh;
+}
